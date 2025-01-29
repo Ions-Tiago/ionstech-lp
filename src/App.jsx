@@ -15,7 +15,6 @@ function App() {
       <Insights/>
       <Stats/>
       <Pricing/>
-      <Testimonials/>
       <Faq/>
       <Footer/>
     </div>

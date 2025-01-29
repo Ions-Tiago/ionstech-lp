@@ -14,7 +14,7 @@ const Footer = () => {
       <div className="w-4/5 m-auto grid md:grid-cols-4 gap-6 px-4">
         <div>
           <h2 className="text-xl font-bold mb-2">About Us</h2>
-          <p className="text-gray-400 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores molestiae et doloremque veniam officiis dolorum dolorem enim qui veritatis dolores quidem animi ullam perspiciatis quod, placeat commodi aspernatur ut assumenda.</p>
+          <p className="text-gray-400 ">A empresa que vai tirar seu negócio do papel e traze-lo para o futuro.</p>
 
         </div>
         <div>

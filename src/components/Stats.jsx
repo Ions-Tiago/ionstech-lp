@@ -23,33 +23,33 @@ const Stats = () => {
           <motion.img src={stats} initial="hidden" whileInView="visible" variants={imageVariant} viewport={{amount: 0.5}} alt="" className="w-full "/>
         </div>
         <div className="md:w-1/2 space-y-8">
-          <h1 className="text-4xl md:text-6xl font-bold">Over 30,000</h1>
+          <h1 className="text-4xl md:text-6xl font-bold">Mais visibilidade</h1>
           <p className="md:text-4xl font-bold">
             {""}
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, vitae dolorum tenetur id repellat voluptas voluptatem officiis asperiores ullam optio dolorem nisi deleniti eius sapiente eum magni quam possimus iste.
+            Empresas que migram para o ambiente digital com um site profissional e otimizado podem aumentar sua eficiência operacional em até 40% (Fonte: McKinsey). Estudos mostram que:
           </p>
           <div className="flex">
             <div className="space-y-5">
               <div className="flex items-center space-x-2">
-                <span className="p-3 rounded-full bg-slate-300 text-slate-800"><FaChartLine/></span>
-                <h1>Data validation</h1>
+                <span className="mr-3 p-3 rounded-full bg-slate-300 text-slate-800"><FaChartLine/></span>
+            
               </div>
             </div>
             <p>
               {""}
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum accusantium harum omnis exercitationem consectetur ipsum commodi velit voluptatibus dignissimos quia, impedit nesciunt delectus et minus corrupti facilis voluptas. Omnis, asperiores.
+              74% dos consumidores priorizam marcas com sites intuitivos e rápidos, elevando as taxas de conversão em até 200% (Google Research).
             </p>
           </div>
           <div className="flex">
             <div className="space-y-5">
               <div className="flex items-center space-x-2">
-                <span className="p-3 rounded-full bg-slate-300 text-slate-800"><FaChartLine/></span>
-                <h1>Optimize Efficiency</h1>
+                <span className="mr-3 p-3 rounded-full bg-slate-300 text-slate-800"><FaChartLine/></span>
+                
               </div>
             </div>
             <p>
               {""}
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Id doloribus consequuntur excepturi placeat? Nesciunt sapiente laborum eligendi itaque illum illo placeat error? Cum maxime sapiente facere hic quaerat aliquam fugit.
+              Negócios com landing pages bem estruturadas e SEO avançado geram 50% mais leads qualificados (HubSpot), enquanto a experiência mobile otimizada aumenta vendas em 55% (Statista).
             </p>
           </div>
         </div>

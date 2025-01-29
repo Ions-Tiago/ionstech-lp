@@ -18,8 +18,8 @@ const Pricing = () => {
   return (
     <div className="py-20 w-4/5 m-auto flex flexcol md:flex-row justify-between items-center space-y-10 md:space-y-0 ">
       <div className="md:w-1/2 space-y-8">
-        <h1 className="text-4xl md:text-6xl font-bold">Maximize your Efficiency with EPIC Inc.</h1>
-        <h2 className="text-3xl md:text-5xl font-bold">$29,99.99</h2>
+        <h1 className="text-4xl md:text-6xl font-bold">Maximize sua eficiência</h1>
+        <h2 className="text-3xl md:text-5xl font-bold">você não só alcança esses resultados, mas domina o digital com soluções que convertem visitantes em clientes e transformam dados em vantagem competitiva.</h2>
         <p className="md:text-2xl leading-8"></p>
       </div>
       <div className="w-full md:w-1/3">

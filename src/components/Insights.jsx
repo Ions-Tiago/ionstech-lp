@@ -1,20 +1,21 @@
 import React from "react";
 import { SiDatabricks, SiGoogleassistant } from "react-icons/si";
 import { motion } from "framer-motion";
+import logo from "../assets/logo.svg"
 
 const Insights = () => {
   const insightsData = [
     {
-    title: "Productivity Enhancer",
+    title: "Produtividade acelerada",
     date: "12th July 2024",
     icon: SiGoogleassistant,
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit nesciunt ratione, at cupiditate optio voluptatum laudantium quasi neque dolor error! Praesentium deleniti quod ea eos dolorum adipisci libero quos perferendis!"
+    description: "Na Synth Hub entendemos que tempo é um ativo estratégico. Por isso, combinamos metodologias ágeis, ferramentas de automação e uma equipe altamente alinhada para entregar projetos com velocidade sem abrir mão da qualidade. Utilizamos sprints planejados, integração contínua e testes rigorosos para antecipar prazos em até 30%, garantindo que sua empresa esteja no mercado antes da concorrência."
   },
   {
-    title: "Remote Assistance",
+    title: "Assistência especializada",
     date: "30th Oct 2024",
     icon: SiDatabricks,
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit nesciunt ratione, at cupiditate optio voluptatum!"
+    description: "Desde o primeiro contato, nossa prioridade é entender suas dores, objetivos e visão de futuro para oferecer soluções que resolvem problemas reais. Com suporte técnico especializado 24/7, treinamentos personalizados e ajustes ágeis, garantimos que sua equipe domine cada ferramenta com confiança."
   }
   ]
 
@@ -34,13 +35,13 @@ const Insights = () => {
   return (
     <div className="w-4/5 m-auto py-20 flex flex-col md:flex-row justify-between space-y-10 md:space-y-0">
       <div className="md:w-1/3 space-y-4">
-        <motion.h2 initial={{opacity: 0, y: -50}} whileInView={{opacity: 1, y: 0}} transition={{duration: 0.5}} className="text-2xl font-bold">Industry Insights</motion.h2>
-        <motion.p initial={{opacity: 0, y: -50}} whileInView={{opacity: 1, y: 0}} transition={{duration: 0.5}}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima itaque reprehenderit velit, a ipsum molestias, quam optio eos labore nobis quia exercitationem reiciendis laboriosam cupiditate tempora dolores unde accusamus vitae.</motion.p>
-        <div className="flex items-center space-x-2">
-          <img src="https://randomuser.me/api/portraits/men/1.jpg" alt="" className="w-12 h-12 rounded-full border-4"/>
+        <motion.h2 initial={{opacity: 0, y: -50}} whileInView={{opacity: 1, y: 0}} transition={{duration: 0.5}} className="text-2xl font-bold">Insight da equipe</motion.h2>
+        <motion.p initial={{opacity: 0, y: -50}} whileInView={{opacity: 1, y: 0}} transition={{duration: 0.5}}>Nosso combustível é a paixão por transformar ideias em soluções reais. A cada projeto, enxergamos não só um desafio técnico, mas uma chance de evoluir, aprender e inovar. Queremos ir além: criar sistemas que simplificam operações complexas, landing pages que conquistam clientes e tecnologias que deixam legados.</motion.p>
+        <div className="flex items-center space-x-2 ">
+          <img src={logo} alt="" className="w-12 h-12 rounded-full border-4"/>
           <div className="">
-            <h1 className="font-bold text-lg">Michel Runner</h1>
-            <p className="text-sm text-gray-400">CEO, Founder</p>
+            <h1 className="font-bold text-lg">Equipe</h1>
+            <p className="text-sm text-gray-400">Synth Hub</p>
           </div>
         </div>
       </div>
@@ -54,7 +55,7 @@ const Insights = () => {
                </div>
               <p>{insight.date}</p>
             </div>
-            <p className="text-lg leading-loose ">{insight.description}</p>
+            <p className="text-base leading-loose ">{insight.description}</p>
           </motion.div>
         ))}
       </div>
