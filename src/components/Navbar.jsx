@@ -1,38 +1,16 @@
 import { motion } from "framer-motion";
-import logodark from "../assets/logo-dark.png"
-import logowhite from "../assets/logowhite.png"
-import { useEffect, useState } from "react";
+import logowhite from "../assets/logowhite.png";
 
 const Navbar = () => {
-    const [isDarkMode, setIsDarkMode] = useState(false);
-
-    useEffect(() => {
-      const darkModeMediaQuery = window.matchMedia("(prefers-color-scheme: dark)");
-      setIsDarkMode(darkModeMediaQuery.matches);
-
-      const handleChange = (e) => {
-        setIsDarkMode(e.matches);
-      };
-
-      darkModeMediaQuery.addEventListener("change", handleChange);
-
-      return () => {
-        darkModeMediaQuery.removeEventListener("change", handleChange);
-      };
-    }, []);
-
-    return (
-      <div className="w-4/5 m-auto flex justify-between items-center py-5">
-        <img
-          src={isDarkMode ? logowhite : logodark}
-          alt="logo"
-          className="w-36"
-        />
+  return (
+    <div className="flex items-center justify-center">
+      <div className="w-3/5 m-2 flex justify-between items-center bg-black rounded-full text-white ">
+        <img src={logowhite} alt="logo" className="w-36 ml-2" />
         <motion.ul
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.3, staggerChildren: 0.1 }}
-          className="hidden md:flex items-center space-x-5"
+          className="hidden md:flex items-center space-x-5 pr-4 text-sm"
         >
           <motion.li whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.95 }}>
             <a href="#insights">Insight</a>
@@ -46,13 +24,14 @@ const Navbar = () => {
           <motion.button
             whileHover={{ scale: 0.9 }}
             whileTap={{ scale: 0.5 }}
-            className="px-5 py-2 border border-black font-semibold rounded-full"
+            className="px-5 py-2 m-2 border border-white font-semibold rounded-full"
           >
             <a href="#contact">Contato</a>
           </motion.button>
         </motion.ul>
       </div>
-    );
-  };
+    </div>
+  );
+};
 
 export default Navbar;
