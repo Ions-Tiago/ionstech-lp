@@ -16,10 +16,10 @@ const Pricing = () => {
     },
   }
   return (
-    <div className="py-20 w-4/5 m-auto flex flexcol md:flex-row justify-between items-center space-y-10 md:space-y-0 ">
+    <div className="py-20 w-4/5 m-auto flex flex-col md:flex-row justify-between items-center space-y-10 md:space-y-0 ">
       <div className="md:w-1/2 space-y-8">
         <h1 className="text-4xl md:text-6xl font-bold">Maximize sua eficiência</h1>
-        <h2 className="text-3xl md:text-5xl font-bold">você não só alcança esses resultados, mas domina o digital com soluções que convertem visitantes em clientes e transformam dados em vantagem competitiva.</h2>
+        <h2 className="text-3xl md:text-4xl font-bold">Com a automação e a tecnologia certa, sua empresa otimiza operações, reduz custos e eleva a qualidade do serviço. Além dos ganhos diretos, como aumento de produtividade e agilidade nos processos, os benefícios indiretos impulsionam a experiência do cliente e a satisfação da equipe. A transformação digital não apenas melhora resultados operacionais, mas também cria um ambiente mais eficiente, estratégico e competitivo.</h2>
         <p className="md:text-2xl leading-8"></p>
       </div>
       <div className="w-full md:w-1/3">

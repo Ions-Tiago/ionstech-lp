@@ -23,10 +23,10 @@ const Stats = () => {
           <motion.img src={stats} initial="hidden" whileInView="visible" variants={imageVariant} viewport={{amount: 0.5}} alt="" className="w-full "/>
         </div>
         <div className="md:w-1/2 space-y-8">
-          <h1 className="text-4xl md:text-6xl font-bold">Mais visibilidade</h1>
+          <h1 className="text-4xl md:text-6xl font-bold">Adoção de Tecnologia: RPA</h1>
           <p className="md:text-4xl font-bold">
             {""}
-            Empresas que migram para o ambiente digital com um site profissional e otimizado podem aumentar sua eficiência operacional em até 40% (Fonte: McKinsey). Estudos mostram que:
+            Em um cenário de transformação digital acelerada, a adoção de tecnologias como a Automação Robótica de Processos (RPA) tem revolucionado a operação das organizações.
           </p>
           <div className="flex">
             <div className="space-y-5">
@@ -37,7 +37,7 @@ const Stats = () => {
             </div>
             <p>
               {""}
-              74% dos consumidores priorizam marcas com sites intuitivos e rápidos, elevando as taxas de conversão em até 200% (Google Research).
+              Estudos indicam que a implementação do RPA pode proporcionar economias de custos de até 50% em operações de back-office.
             </p>
           </div>
           <div className="flex">
@@ -49,7 +49,19 @@ const Stats = () => {
             </div>
             <p>
               {""}
-              Negócios com landing pages bem estruturadas e SEO avançado geram 50% mais leads qualificados (HubSpot), enquanto a experiência mobile otimizada aumenta vendas em 55% (Statista).
+              Além disso, a automação de processos permite que colaboradores se dediquem a atividades mais estratégicas, reduzindo erros operacionais e retrabalhos, o que diminui significativamente o tempo de execução dessas atividades.
+            </p>
+          </div>
+          <div className="flex">
+            <div className="space-y-5">
+              <div className="flex items-center space-x-2">
+                <span className="mr-3 p-3 rounded-full bg-slate-300 text-slate-800"><FaChartLine/></span>
+                
+              </div>
+            </div>
+            <p>
+              {""}
+              Empresas líderes já utilizam a automação para redefinir padrões de excelência, integrando tecnologias avançadas para aprimorar seus processos e serviços.
             </p>
           </div>
         </div>
